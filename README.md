@@ -7,6 +7,7 @@ Welcome to the Mini Python Project! This repository contains several mini-games 
 3. **Dice Rolling Game**
 4. **Text Adventure Game**
 5. **Turtle Graphics**
+6. **Star Pyramid Generator**
 
 ## Table of Contents
 
@@ -15,6 +16,7 @@ Welcome to the Mini Python Project! This repository contains several mini-games 
 - [Dice Rolling Game](#dice-rolling-game)
 - [Text Adventure Game](#text-adventure-game)
 - [Turtle Graphics](#turtle-graphics)
+- [Star Pyramid Generator](#star-pyramid-generator)
 - [Getting Started](#getting-started)
 
 ## Color Game
@@ -82,6 +84,20 @@ This program creates a colorful spiral using the Turtle graphics library.
 ### How to Run
 - Run the Turtle graphics code to see the colorful spiral.
 
+## Star Pyramid Generator
+
+### Description
+The Star Pyramid Generator allows users to create a pyramid of stars based on a specified height.
+
+### Features
+- User-defined height for the pyramid
+- Dynamic star generation with aligned formatting
+
+### How to Use
+1. Run the program.
+2. Enter a number to determine the height of the pyramid.
+3. Choose to generate another pyramid or quit the program.
+
 ## Getting Started
 
 ### Prerequisites
@@ -98,6 +114,6 @@ Ensure you have Python installed on your machine. You may also need the followin
 ### Running the Games
 To run any of the games, use the following command:
 
-``bash
+```bash
 python <filename>.py
 
