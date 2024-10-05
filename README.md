@@ -1,6 +1,6 @@
 # Mini Python Project
 
-Welcome to the Mini-Game Python Project! This repository contains several mini-games developed in Python, utilizing libraries such as Tkinter for GUI applications and Turtle for graphics. The games included are:
+Welcome to the Mini Python Project! This repository contains several mini-games developed in Python, utilizing libraries such as Tkinter for GUI applications and Turtle for graphics. The games included are:
 
 1. **Color Game**
 2. **Contact Management System**
@@ -16,7 +16,6 @@ Welcome to the Mini-Game Python Project! This repository contains several mini-g
 - [Text Adventure Game](#text-adventure-game)
 - [Turtle Graphics](#turtle-graphics)
 - [Getting Started](#getting-started)
-- [License](#license)
 
 ## Color Game
 
@@ -99,7 +98,6 @@ Ensure you have Python installed on your machine. You may also need the followin
 ### Running the Games
 To run any of the games, use the following command:
 
-```bash
+``bash
 python <filename>.py
-Replace <filename> with the name of the specific game file.
 
