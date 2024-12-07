@@ -1,6 +1,6 @@
-# Mini Python Project
+# Mini Python Projects
 
-Welcome to the **Mini Python Project**! This repository features several mini-games and programs developed in Python. These projects demonstrate the use of popular libraries such as **Tkinter** for graphical user interfaces (GUIs) and **Turtle** for graphics.
+Welcome to the **Mini Python Projects**! This repository features several mini-games and programs developed in Python. These projects demonstrate the use of popular libraries such as **Tkinter** for graphical user interfaces (GUIs) and **Turtle** for graphics.
 
 ## Games and Applications
 
