@@ -142,14 +142,14 @@ A simple and interactive Rock, Paper, Scissors game built using Python's tkinter
 
 ### How to Run
 1. Choose one of the three options by clicking the corresponding button:
--Rock
--Paper
--Scissors
+- Rock
+- Paper
+- Scissors
 2. The computer will randomly select its choice.
 3. The game will display the computer's choice and the result:
--"You Win!" if you win the round.
--"You Lose!" if the computer wins the round.
--"It's a Tie!" if both choices are the same.
+- "You Win!" if you win the round.
+- "You Lose!" if the computer wins the round.
+- "It's a Tie!" if both choices are the same.
 4.Scores will update automatically.
 
 ---
