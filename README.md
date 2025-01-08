@@ -10,7 +10,7 @@ Welcome to the **Mini Python Projects**! This repository features several mini-g
 4. [Text Adventure Game](#4-text-adventure-game)
 5. [Turtle Graphics](#5-turtle-graphics)
 6. [Star Pyramid Generator](#6-star-pyramid-generator)
-
+7. [Rock, Paper, Scissors Game](#7-rock-paper-scissors-game)
 ---
 
 ## 1. Color Game
@@ -127,7 +127,7 @@ Create aesthetically pleasing star pyramids based on the height you specify. Thi
 
 ---
 
-## 7. Rock, Paper, Scissors Game
+## 7. Rock Paper Scissors Game
 
 ### Description
 
