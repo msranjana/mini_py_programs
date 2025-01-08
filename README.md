@@ -150,7 +150,7 @@ A simple and interactive Rock, Paper, Scissors game built using Python's tkinter
 - "You Win!" if you win the round.
 - "You Lose!" if the computer wins the round.
 - "It's a Tie!" if both choices are the same.
-4.Scores will update automatically.
+4. Scores will update automatically.
 
 ---
 ## Getting Started
