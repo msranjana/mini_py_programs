@@ -127,6 +127,32 @@ Create aesthetically pleasing star pyramids based on the height you specify. Thi
 
 ---
 
+## 7. Rock, Paper, Scissors Game
+
+### Description
+
+A simple and interactive Rock, Paper, Scissors game built using Python's tkinter library. Play against the computer and keep track of your score while enjoying a fun GUI-based experience!
+
+### Features
+
+- User-Friendly Interface: Built with tkinter, making it easy to use for all ages.
+- Score Tracking: Displays real-time scores for both the user and the computer.
+- Replayable: Play as many rounds as you want, with scores updated after each game.
+- Dynamic Outcome Display: Shows the computer's choice and the result of each round.
+
+### How to Run
+1. Choose one of the three options by clicking the corresponding button:
+-Rock
+-Paper
+-Scissors
+2. The computer will randomly select its choice.
+3. The game will display the computer's choice and the result:
+-"You Win!" if you win the round.
+-"You Lose!" if the computer wins the round.
+-"It's a Tie!" if both choices are the same.
+4.Scores will update automatically.
+
+---
 ## Getting Started
 
 ### Prerequisites
