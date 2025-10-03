@@ -183,3 +183,7 @@ Make sure you have the following:
   python <filename>.py
    ````
 Replace <filename> with the name of the script you want to run, e.g., color_game.py.
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
