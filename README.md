@@ -178,12 +178,12 @@ Make sure you have the following:
 
 ### Running the Games
 
- To run any game or program, use the following command:
+ To run the launcher, use the following command:
 
    ````bash
-  python <filename>.py
+  python3 main.py
    ````
-Replace <filename> with the name of the script you want to run, e.g., color_game.py.
+Select the number corresponding with the game/program you want to use.
 
 ## License
 
