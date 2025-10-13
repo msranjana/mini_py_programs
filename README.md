@@ -12,6 +12,8 @@ Welcome to the **Mini Python Projects**! This repository features several mini-g
 5. [Turtle Graphics](#5-turtle-graphics)
 6. [Star Pyramid Generator](#6-star-pyramid-generator)
 7. [Rock, Paper, Scissors Game](#7-rock-paper-scissors-game)
+8. [Snake Game](#8-snake-game)
+
 ---
 
 ## 1. Color Game
@@ -154,6 +156,41 @@ A simple and interactive Rock, Paper, Scissors game built using Python's tkinter
 4. Scores will update automatically.
 
 ---
+
+## 8. Snake Game
+
+### Description
+Experience the classic arcade game with this Python implementation! Control a snake to eat food and grow longer while avoiding collisions with yourself. Built with Pygame for smooth graphics and responsive controls.
+
+### Features
+Smooth Movement: Responsive arrow key controls
+
+Score Tracking: Real-time score display
+
+Game Over Detection: Self-collision ends the game
+
+Wrap-around Screen: Snake can move through screen boundaries
+
+Visual Feedback: Clean grid-based graphics with colored elements
+
+### How to Play
+Use Arrow Keys to control the snake's direction:
+
+ - ↑ Up
+
+ - ↓ Down
+
+ - ← Left
+
+ - → Right
+
+ - Eat the red food to grow longer and increase your score
+
+ - Avoid running into your own body
+
+ - Try to achieve the highest score possible!
+
+
 ## Getting Started
 
 ### Prerequisites
