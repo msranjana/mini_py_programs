@@ -13,6 +13,7 @@ Welcome to the **Mini Python Projects**! This repository features several mini-g
 6. [Star Pyramid Generator](#6-star-pyramid-generator)
 7. [Rock, Paper, Scissors Game](#7-rock-paper-scissors-game)
 8. [Snake Game](#8-snake-game)
+9. [Sudoku Solver](#9-sudoku-solver)
 
 ---
 
@@ -221,6 +222,33 @@ Make sure you have the following:
   python3 main.py
    ````
 Select the number corresponding with the game/program you want to use.
+
+## 9. Sudoku Solver 
+
+### Description
+
+​	An interactive Sudoku solver built with Streamlit. Users can input any valid 9x9 Sudoku puzzle, and the program will find the solution using a backtracking algorithm.
+
+### Features
+
+- **Interactive 9x9 Grid:** Easily input or edit numbers in a user-friendly grid.
+- **Automated Solving:** Employs a powerful backtracking algorithm to solve the puzzle with a single click.
+- **Pre-filled Sample:** Comes with a default Sudoku puzzle for quick testing.
+- **Instant Feedback:** Immediately displays a success message with the solution or an error if the puzzle is unsolvable.
+
+### How to Play
+
+1.  Make sure you have Python installed.
+2.  Install the required libraries:
+    ```bash
+    pip install streamlit numpy
+    ```
+3.  Run the application from your terminal:
+    ```bash
+    streamlit run sudoku_solver.py
+    ```
+4.  The web app will open in your browser. Edit the grid to input your own Sudoku puzzle.
+5.  Click the "Solve Sudoku" button to see the solution.
 
 ## License
 
