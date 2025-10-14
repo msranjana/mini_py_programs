@@ -14,7 +14,7 @@ Welcome to the **Mini Python Projects**! This repository features several mini-g
 7. [Rock, Paper, Scissors Game](#7-rock-paper-scissors-game)
 8. [Snake Game](#8-snake-game)
 9. [Sudoku Solver](#9-sudoku-solver)
-
+10. [Number Guessing Game](#10-number-guessing-game)
 ---
 
 ## 1. Color Game
@@ -190,6 +190,19 @@ Use Arrow Keys to control the snake's direction:
  - Avoid running into your own body
 
  - Try to achieve the highest score possible!
+
+## 10. Number Guessing Game
+
+### Description
+Guess the number between 1 and 100 in the fewest attempts possible! After each guess, the game tells whether your guess was too high or too low.
+
+### Features
+- Random number each round
+- Tracks number of attempts
+- Simple terminal-based gameplay
+
+### How to Play
+Run the script and start guessing!
 
 
 ## Getting Started
