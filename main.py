@@ -18,6 +18,7 @@ PROGRAMS = {
     "Pattern Game": "patternGame/pattern.py",
     "Rock Paper Scissor": "rockPaperScissor/rock-paper-scissor.py",
     "Star Pyramid": "starPyramid/star-pyramid.py",
+    "Tic-Tac-Toe": "tic_tac_toe/tic_tac_toe.py",
 }
 
 def clear_screen():
@@ -33,11 +34,15 @@ def print_title():
         print("   Mini Python Programs Launcher   ")
         print("=" * 45)
 
-def list_programs():
+def list_programs(show_clear=True):
+    clear_screen()
     print_title()
     for i, name in enumerate(PROGRAMS.keys(), 1):
         print(f"{i}. {name}")
-    print(f"{len(PROGRAMS)+1}. Exit\n")
+    print(f"{len(PROGRAMS)+1}. Exit")
+    if show_clear:
+        print(f"{len(PROGRAMS)+2}. Clear Screen")
+    print()
 
 def run_program(choice):
     name = list(PROGRAMS.keys())[choice - 1]
@@ -54,19 +59,31 @@ def run_program(choice):
 
 def main():
     while True:
-        clear_screen()
         list_programs()
         try:
-            choice = int(input("Enter your choice: "))
-            if choice == len(PROGRAMS) + 1:
+            choice = input("\nEnter your choice: ").strip()
+            
+            # Handle empty input
+            if not choice:
+                continue
+                
+            choice = int(choice)
+            total_options = len(PROGRAMS) + 2  # +1 for Exit, +1 for Clear Screen
+            
+            if choice == len(PROGRAMS) + 1:  # Exit
                 print("\nGoodbye! 👋")
                 break
-            elif 1 <= choice <= len(PROGRAMS):
+            elif choice == len(PROGRAMS) + 2:  # Clear Screen
+                continue  # Will re-print the menu
+            elif 1 <= choice <= len(PROGRAMS):  # Run a program
                 run_program(choice)
             else:
                 print("Invalid choice! Please try again.")
+                input("\nPress Enter to continue...")
         except ValueError:
-            print("Please enter a valid number.")
+            if choice.lower() in ('c', 'clear'):
+                continue  # Will re-print the menu
+            print("Please enter a valid number or 'c' to clear screen.")
             input("\nPress Enter to continue...")
 
 if __name__ == "__main__":
