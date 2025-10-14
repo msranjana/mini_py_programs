@@ -16,9 +16,10 @@ PROGRAMS = {
     "Dice Game": "diceGame/dice_game.py",
     "Mini Quiz": "miniQuiz/minigame.py",
     "Pattern Game": "patternGame/pattern.py",
-    "Rock Paper Scissor": "rockPaperScissor/rock-paper-scissor.py",
-    "Star Pyramid": "starPyramid/star-pyramid.py",
+    "Rock Paper Scissor": "rockPaperScissor/rock-paper-sci.py",
+    "Star Pyramid": "starPyramid/star_pyramid.py",
     "Tic-Tac-Toe": "tic_tac_toe/tic_tac_toe.py",
+    "Word Jumble": "word_jumble/word_jumble.py"
 }
 
 def clear_screen():

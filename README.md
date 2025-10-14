@@ -15,7 +15,8 @@ Welcome to the **Mini Python Projects**! This repository features several mini-g
 8. [Snake Game](#8-snake-game)
 9. [Sudoku Solver](#9-sudoku-solver)
 10. [Number Guessing Game](#10-number-guessing-game)
-11. [Tic-Tac-Toe](#11-tic-tac-toe)
+11. [Tic-Tac-Toe Game](#11-tic-tac-toe-game)
+12. [Word Jumble](#12-word-jumble)
 ---
 
 ## 1. Color Game
@@ -192,6 +193,33 @@ Use Arrow Keys to control the snake's direction:
 
  - Try to achieve the highest score possible!
 
+## 9. Sudoku Solver 
+
+### Description
+
+​	An interactive Sudoku solver built with Streamlit. Users can input any valid 9x9 Sudoku puzzle, and the program will find the solution using a backtracking algorithm.
+
+### Features
+
+- **Interactive 9x9 Grid:** Easily input or edit numbers in a user-friendly grid.
+- **Automated Solving:** Employs a powerful backtracking algorithm to solve the puzzle with a single click.
+- **Pre-filled Sample:** Comes with a default Sudoku puzzle for quick testing.
+- **Instant Feedback:** Immediately displays a success message with the solution or an error if the puzzle is unsolvable.
+
+### How to Play
+
+1.  Make sure you have Python installed.
+2.  Install the required libraries:
+    ```bash
+    pip install streamlit numpy
+    ```
+3.  Run the application from your terminal:
+    ```bash
+    streamlit run sudoku_solver.py
+    ```
+4.  The web app will open in your browser. Edit the grid to input your own Sudoku puzzle.
+5.  Click the "Solve Sudoku" button to see the solution.
+
 ## 10. Number Guessing Game
 
 ### Description
@@ -202,6 +230,27 @@ A simple number guessing game where the player tries to guess a randomly generat
 ### How to Play
 Run the script and start guessing!
 
+
+## 11. Tic-Tac-Toe Game
+
+### Description
+Classic 3x3 grid game where two players take turns placing X's and O's. The first player to get three in a row (horizontally, vertically, or diagonally) wins!
+
+### Features
+- Clean GUI interface built with Tkinter
+- Two-player gameplay
+- Win detection for all possible combinations
+- Reset functionality to play multiple rounds
+- Visual feedback for current player's turn
+
+### How to Play
+1. Player X starts first
+2. Click any empty square to place your mark
+3. Players alternate turns
+4. First to get three in a row wins
+5. Click "Reset Game" to play again
+
+---
 
 ## Getting Started
 
@@ -233,33 +282,6 @@ Make sure you have the following:
   python3 main.py
    ````
 Select the number corresponding with the game/program you want to use.
-
-## 9. Sudoku Solver 
-
-### Description
-
-​	An interactive Sudoku solver built with Streamlit. Users can input any valid 9x9 Sudoku puzzle, and the program will find the solution using a backtracking algorithm.
-
-### Features
-
-- **Interactive 9x9 Grid:** Easily input or edit numbers in a user-friendly grid.
-- **Automated Solving:** Employs a powerful backtracking algorithm to solve the puzzle with a single click.
-- **Pre-filled Sample:** Comes with a default Sudoku puzzle for quick testing.
-- **Instant Feedback:** Immediately displays a success message with the solution or an error if the puzzle is unsolvable.
-
-### How to Play
-
-1.  Make sure you have Python installed.
-2.  Install the required libraries:
-    ```bash
-    pip install streamlit numpy
-    ```
-3.  Run the application from your terminal:
-    ```bash
-    streamlit run sudoku_solver.py
-    ```
-4.  The web app will open in your browser. Edit the grid to input your own Sudoku puzzle.
-5.  Click the "Solve Sudoku" button to see the solution.
 
 ## License
 
