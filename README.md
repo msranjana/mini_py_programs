@@ -226,7 +226,6 @@ Use Arrow Keys to control the snake's direction:
 
 A simple number guessing game where the player tries to guess a randomly generated number within a limited number of attempts.
 
-### Features
 ### How to Play
 Run the script and start guessing!
 
