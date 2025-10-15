@@ -16,6 +16,7 @@ Welcome to the **Mini Python Projects**! This repository features several mini-g
 9. [Sudoku Solver](#9-sudoku-solver)
 10. [Number Guessing Game](#10-number-guessing-game)
 11. [Tic-Tac-Toe Game](#11-tic-tac-toe-game)
+12. [Word Jumble](#12-word-jumble)
 ---
 
 ## 1. Color Game
@@ -222,13 +223,10 @@ Use Arrow Keys to control the snake's direction:
 ## 10. Number Guessing Game
 
 ### Description
-Guess the number between 1 and 100 in the fewest attempts possible! After each guess, the game tells whether your guess was too high or too low.
+
+A simple number guessing game where the player tries to guess a randomly generated number within a limited number of attempts.
 
 ### Features
-- Random number each round
-- Tracks number of attempts
-- Simple terminal-based gameplay
-
 ### How to Play
 Run the script and start guessing!
 
