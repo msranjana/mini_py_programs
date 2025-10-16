@@ -17,6 +17,7 @@ Welcome to the **Mini Python Projects**! This repository features several mini-g
 10. [Number Guessing Game](#10-number-guessing-game)
 11. [Tic-Tac-Toe Game](#11-tic-tac-toe-game)
 12. [Word Jumble](#12-word-jumble)
+13. [Word Scramble Game](#13-word-scramble-game)
 ---
 
 ## 1. Color Game
@@ -228,6 +229,19 @@ A simple number guessing game where the player tries to guess a randomly generat
 
 ### How to Play
 Run the script and start guessing!
+
+## 11. Word Scramble Game
+
+### Description
+Unscramble the given word before running out of attempts! The program randomly selects a word, scrambles it, and asks the user to guess the original word.
+
+### Features
+- Random word selection
+- 3 attempts to guess
+- Displays the correct word if you fail
+
+### How to Play
+Run the script and type your guesses until you find the right word!
 
 
 ## 11. Tic-Tac-Toe Game
