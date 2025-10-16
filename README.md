@@ -265,6 +265,29 @@ Classic 3x3 grid game where two players take turns placing X's and O's. The firs
 
 ---
 
+
+### 12. Word Jumble Game
+
+A fun and challenging word puzzle game where you unscramble jumbled letters to form meaningful words. Test your vocabulary and quick thinking!
+
+
+
+## 🚀 Features
+
+- Simple and intuitive command-line interface
+- Score tracking and high score system
+- Progressively challenging words
+- Option to quit anytime by typing 'quit'
+- High score saved between game sessions
+
+**How to Play:**
+1.  Run the `jumble_words.py` script.
+2.  The game will present a jumbled word.
+3.  Enter your guess for the correct word.
+4.  The game will tell you if your guess is correct and continue with a new word.
+
+
+
 ## Getting Started
 
 ### Prerequisites
