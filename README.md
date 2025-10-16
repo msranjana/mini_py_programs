@@ -15,6 +15,7 @@ Welcome to the **Mini Python Projects**! This repository features several mini-g
 8. [Snake Game](#8-snake-game)
 9. [Sudoku Solver](#9-sudoku-solver)
 10. [Number Guessing Game](#10-number-guessing-game)
+11. [Word Scramble Game](#11-word-scramble-game)
 ---
 
 ## 1. Color Game
@@ -203,6 +204,19 @@ Guess the number between 1 and 100 in the fewest attempts possible! After each g
 
 ### How to Play
 Run the script and start guessing!
+
+## 11. Word Scramble Game
+
+### Description
+Unscramble the given word before running out of attempts! The program randomly selects a word, scrambles it, and asks the user to guess the original word.
+
+### Features
+- Random word selection
+- 3 attempts to guess
+- Displays the correct word if you fail
+
+### How to Play
+Run the script and type your guesses until you find the right word!
 
 
 ## Getting Started
