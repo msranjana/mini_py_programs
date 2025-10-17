@@ -245,7 +245,7 @@ Unscramble the given word before running out of attempts! The program randomly s
 Run the script and type your guesses until you find the right word!
 
 
-## 11. Tic-Tac-Toe Game
+## 12. Tic-Tac-Toe Game
 
 ### Description
 Classic 3x3 grid game where two players take turns placing X's and O's. The first player to get three in a row (horizontally, vertically, or diagonally) wins!
@@ -264,7 +264,7 @@ Classic 3x3 grid game where two players take turns placing X's and O's. The firs
 4. First to get three in a row wins
 5. Click "Reset Game" to play again
 
-## 12. Typing Speed Tester
+## 13. Typing Speed Tester
 ### Description
 Measure how fast and accurately you can type! The program shows a random sentence, times your typing, and calculates your typing speed and accuracy.
 
@@ -280,7 +280,7 @@ Run the program, type the displayed sentence as quickly and accurately as you ca
 ---
 
 
-### 12. Word Jumble Game
+### 14. Word Jumble Game
 
 A fun and challenging word puzzle game where you unscramble jumbled letters to form meaningful words. Test your vocabulary and quick thinking!
 
