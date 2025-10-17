@@ -15,10 +15,10 @@ Welcome to the **Mini Python Projects**! This repository features several mini-g
 8. [Snake Game](#8-snake-game)
 9. [Sudoku Solver](#9-sudoku-solver)
 10. [Number Guessing Game](#10-number-guessing-game)
-11. [Tic-Tac-Toe Game](#11-tic-tac-toe-game)
-12. [Word Jumble](#12-word-jumble)
-13. [Word Scramble Game](#13-word-scramble-game)
-14. [Typing Speed Tester](#14-typing-speed-tester)
+11. [Word Scramble Game](#11-word-scramble-game)
+12. [Tic-Tac-Toe Game](#12-tic-tac-toe-game)
+13. [Typing Speed Tester](#13-typing-speed-tester)
+14. [Word Jumble](#14-word-jumble)
 ---
 
 ## 1. Color Game
