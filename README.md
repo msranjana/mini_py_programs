@@ -18,6 +18,7 @@ Welcome to the **Mini Python Projects**! This repository features several mini-g
 11. [Tic-Tac-Toe Game](#11-tic-tac-toe-game)
 12. [Word Jumble](#12-word-jumble)
 13. [Word Scramble Game](#13-word-scramble-game)
+14. [Typing Speed Tester](#14-typing-speed-tester)
 ---
 
 ## 1. Color Game
@@ -262,6 +263,19 @@ Classic 3x3 grid game where two players take turns placing X's and O's. The firs
 3. Players alternate turns
 4. First to get three in a row wins
 5. Click "Reset Game" to play again
+
+## 12. Typing Speed Tester
+### Description
+Measure how fast and accurately you can type! The program shows a random sentence, times your typing, and calculates your typing speed and accuracy.
+
+### Features
+- Random sentence each time
+- Shows typing speed (WPM)
+- Calculates accuracy
+- Encourages quick typing practice
+
+### How to Play
+Run the program, type the displayed sentence as quickly and accurately as you can, and check your score.
 
 ---
 
